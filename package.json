@@ -1,0 +1,19 @@
+{
+  "name": "lh-line-notify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/chaihanij/lh-line-notify.git"
+  },
+  "author": "Wachirawat Chaihanij",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaihanij/lh-line-notify/issues"
+  },
+  "homepage": "https://github.com/chaihanij/lh-line-notify#readme"
+}
