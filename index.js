@@ -7,7 +7,6 @@ app.get("/", (req, res) => {
 });
 
 app.get("/sent-to-notify", (req, res) => {
-  //   request.post()
   let token = req.query.token;
   let message = req.query.message;
   if (token && message) {
@@ -37,6 +36,7 @@ app.get("/sent-to-notify", (req, res) => {
   }
 });
 
-app.listen(3000, () => {
-  console.log("Start server at port 3000.");
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Our app is running on port ${PORT}`);
 });
